@@ -4,6 +4,8 @@
 //  Created by MineS Chan on 2013-10-16
 //  Updated 2014-12-15
 
+//  时间倒计时 label
+
 // This code is distributed under the terms and conditions of the MIT license. 
 
 // Copyright (c) 2014 MineS Chan
