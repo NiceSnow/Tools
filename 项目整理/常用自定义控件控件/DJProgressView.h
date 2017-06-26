@@ -1,5 +1,5 @@
 
-
+//圆形  条形进度条
 
 
 #import <UIKit/UIKit.h>
