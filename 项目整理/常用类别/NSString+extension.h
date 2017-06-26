@@ -78,5 +78,52 @@ typedef NS_ENUM(NSInteger,widthORheight) {
  */
 -(BOOL)isEmail;
 
+
+/**
+ 获取ip地址
+
+ @return ip地址
+ */
 +(instancetype)getIPString;
+
+/**
+ md5加密
+
+ @return 加密后的string
+ */
+-(NSString*)md5;
+
+/**
+ Base64加密
+ 
+ @return 加密后的string
+ */
+-(NSString*)encodeBase64;
+
+/**
+ Base64解密
+ 
+ @return 加密后的string
+ */
+-(NSString*)decodeBase64;
+
+- (NSString *) sha1_base64;
+
+- (NSString *) md5_base64;
+
+/**
+ AES加密
+
+ @param key 秘钥
+ @return 加密后的string
+ */
+- (NSString *)encryptWithKey:(NSString *)key;
+
+/**
+ AES解密
+ 
+ @param key 秘钥
+ @return 解密后的string
+ */
+- (NSString *)decryptWithKey:(NSString *)key;
 @end

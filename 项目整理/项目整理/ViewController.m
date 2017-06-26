@@ -56,6 +56,11 @@
     
     DebugLog(@"%@",[NSString getIPString]);
     
+    DebugLog(@"%@",[[NSString getIPString] md5]);
+    
+    DebugLog(@"%@",[[NSString getIPString] encodeBase64]);
+    
+    DebugLog(@"%@",[[[NSString getIPString] encodeBase64] decodeBase64]);
     // Do any additional setup after loading the view, typically from a nib.
 }
 
