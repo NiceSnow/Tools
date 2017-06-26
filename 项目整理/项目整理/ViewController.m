@@ -56,8 +56,6 @@
     
     DebugLog(@"%@",[NSString getIPString]);
     
-    DebugLog(@"%@",[NSString getIPString]);
-    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
