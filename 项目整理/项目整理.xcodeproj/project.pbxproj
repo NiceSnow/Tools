@@ -26,6 +26,9 @@
 		2D9AF6531EFBB84800F99F3D /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9AF6521EFBB84800F99F3D /* ____UITests.m */; };
 		2D9AF6651EFBCA5D00F99F3D /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9AF6641EFBCA5D00F99F3D /* Tools.m */; };
 		2D9FE6CF1F00ADE700AAB7E4 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D9FE6CE1F00ADE700AAB7E4 /* CoreImage.framework */; };
+		2DE360A01F033B8900F20BF5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE3609F1F033B8900F20BF5 /* Security.framework */; };
+		2DE360A31F034D9200F20BF5 /* private_key.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 2DE360A11F034D9200F20BF5 /* private_key.p12 */; };
+		2DE360A41F034D9300F20BF5 /* public_key.der in Resources */ = {isa = PBXBuildFile; fileRef = 2DE360A21F034D9200F20BF5 /* public_key.der */; };
 		9291BCAC1F00E16700A495A9 /* DJProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9291BCA91F00E16700A495A9 /* DJProgressView.m */; };
 		9291BCAD1F00E16700A495A9 /* MZTimerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9291BCAB1F00E16700A495A9 /* MZTimerLabel.m */; };
 /* End PBXBuildFile section */
@@ -86,6 +89,9 @@
 		2D9AF6631EFBCA5D00F99F3D /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
 		2D9AF6641EFBCA5D00F99F3D /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
 		2D9FE6CE1F00ADE700AAB7E4 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		2DE3609F1F033B8900F20BF5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		2DE360A11F034D9200F20BF5 /* private_key.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = private_key.p12; sourceTree = "<group>"; };
+		2DE360A21F034D9200F20BF5 /* public_key.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = public_key.der; sourceTree = "<group>"; };
 		9291BCA81F00E16700A495A9 /* DJProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJProgressView.h; sourceTree = "<group>"; };
 		9291BCA91F00E16700A495A9 /* DJProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJProgressView.m; sourceTree = "<group>"; };
 		9291BCAA1F00E16700A495A9 /* MZTimerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZTimerLabel.h; sourceTree = "<group>"; };
@@ -97,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DE360A01F033B8900F20BF5 /* Security.framework in Frameworks */,
 				2D9FE6CF1F00ADE700AAB7E4 /* CoreImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -171,6 +178,8 @@
 		2D9AF62C1EFBB84700F99F3D /* 项目整理 */ = {
 			isa = PBXGroup;
 			children = (
+				2DE360A11F034D9200F20BF5 /* private_key.p12 */,
+				2DE360A21F034D9200F20BF5 /* public_key.der */,
 				2D9AF6301EFBB84700F99F3D /* AppDelegate.h */,
 				2D9AF6311EFBB84700F99F3D /* AppDelegate.m */,
 				2D9AF6331EFBB84700F99F3D /* ViewController.h */,
@@ -230,6 +239,7 @@
 		2D9FE6CD1F00ADE600AAB7E4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2DE3609F1F033B8900F20BF5 /* Security.framework */,
 				2D9FE6CE1F00ADE700AAB7E4 /* CoreImage.framework */,
 			);
 			name = Frameworks;
@@ -356,6 +366,8 @@
 				2D9AF63D1EFBB84700F99F3D /* LaunchScreen.storyboard in Resources */,
 				2D9AF63A1EFBB84700F99F3D /* Assets.xcassets in Resources */,
 				2D9AF6381EFBB84700F99F3D /* Main.storyboard in Resources */,
+				2DE360A31F034D9200F20BF5 /* private_key.p12 in Resources */,
+				2DE360A41F034D9300F20BF5 /* public_key.der in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

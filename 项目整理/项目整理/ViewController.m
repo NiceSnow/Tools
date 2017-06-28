@@ -13,6 +13,7 @@
 #import "NSArray+extension.h"
 #import "MacroDefinition.h"
 #import "NSDictionary+extension.h"
+#import "Tools.h"
 @interface ViewController ()
 
 @end
@@ -61,6 +62,21 @@
     DebugLog(@"%@",[[NSString getIPString] encodeBase64]);
     
     DebugLog(@"%@",[[[NSString getIPString] encodeBase64] decodeBase64]);
+    
+    NSString *pubPath = [[NSBundle mainBundle] pathForResource:@"rsacert.der" ofType:nil];
+    
+    
+    NSString *originalString = @"这是一段将要使用'.der'文件加密的字符串!";
+    
+    
+    NSString *public_key_path = [[NSBundle mainBundle] pathForResource:@"public_key.der" ofType:nil];
+    NSString *private_key_path = [[NSBundle mainBundle] pathForResource:@"private_key.p12" ofType:nil];
+    
+    NSString *encryptStr = [Tools encryptString:originalString publicKeyWithContentsOfFile:public_key_path];
+    NSLog(@"加密前:%@", originalString);
+    NSLog(@"加密后:%@", encryptStr);
+    NSLog(@"解密后:%@", [Tools decryptString:encryptStr privateKeyWithContentsOfFile:private_key_path password:@"Mdd123123"]);
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
