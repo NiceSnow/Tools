@@ -16,6 +16,8 @@
 		2D447B2D1EFCC986006BBCEC /* UIImage+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D447B2C1EFCC986006BBCEC /* UIImage+extension.m */; };
 		2D447B301EFCE67E006BBCEC /* NSArray+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D447B2F1EFCE67E006BBCEC /* NSArray+extension.m */; };
 		2D447B331EFCE68F006BBCEC /* NSDictionary+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D447B321EFCE68F006BBCEC /* NSDictionary+extension.m */; };
+		2D7238841F03588800D35657 /* pkcs8_private_key.pem in Resources */ = {isa = PBXBuildFile; fileRef = 2D7238821F03588800D35657 /* pkcs8_private_key.pem */; };
+		2D7238851F03588800D35657 /* rsa_public_key.pem in Resources */ = {isa = PBXBuildFile; fileRef = 2D7238831F03588800D35657 /* rsa_public_key.pem */; };
 		2D9AF62F1EFBB84700F99F3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9AF62E1EFBB84700F99F3D /* main.m */; };
 		2D9AF6321EFBB84700F99F3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9AF6311EFBB84700F99F3D /* AppDelegate.m */; };
 		2D9AF6351EFBB84700F99F3D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9AF6341EFBB84700F99F3D /* ViewController.m */; };
@@ -69,6 +71,8 @@
 		2D447B2F1EFCE67E006BBCEC /* NSArray+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+extension.m"; sourceTree = "<group>"; };
 		2D447B311EFCE68F006BBCEC /* NSDictionary+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+extension.h"; sourceTree = "<group>"; };
 		2D447B321EFCE68F006BBCEC /* NSDictionary+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+extension.m"; sourceTree = "<group>"; };
+		2D7238821F03588800D35657 /* pkcs8_private_key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pkcs8_private_key.pem; sourceTree = "<group>"; };
+		2D7238831F03588800D35657 /* rsa_public_key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rsa_public_key.pem; sourceTree = "<group>"; };
 		2D9AF62A1EFBB84700F99F3D /* 项目整理.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "项目整理.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D9AF62E1EFBB84700F99F3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2D9AF6301EFBB84700F99F3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -150,6 +154,15 @@
 			path = "常用类别";
 			sourceTree = "<group>";
 		};
+		2D7238811F03588800D35657 /* java_pem */ = {
+			isa = PBXGroup;
+			children = (
+				2D7238821F03588800D35657 /* pkcs8_private_key.pem */,
+				2D7238831F03588800D35657 /* rsa_public_key.pem */,
+			);
+			path = java_pem;
+			sourceTree = "<group>";
+		};
 		2D9AF6211EFBB84700F99F3D = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +191,7 @@
 		2D9AF62C1EFBB84700F99F3D /* 项目整理 */ = {
 			isa = PBXGroup;
 			children = (
+				2D7238811F03588800D35657 /* java_pem */,
 				2DE360A11F034D9200F20BF5 /* private_key.p12 */,
 				2DE360A21F034D9200F20BF5 /* public_key.der */,
 				2D9AF6301EFBB84700F99F3D /* AppDelegate.h */,
@@ -367,6 +381,8 @@
 				2D9AF63A1EFBB84700F99F3D /* Assets.xcassets in Resources */,
 				2D9AF6381EFBB84700F99F3D /* Main.storyboard in Resources */,
 				2DE360A31F034D9200F20BF5 /* private_key.p12 in Resources */,
+				2D7238841F03588800D35657 /* pkcs8_private_key.pem in Resources */,
+				2D7238851F03588800D35657 /* rsa_public_key.pem in Resources */,
 				2DE360A41F034D9300F20BF5 /* public_key.der in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
