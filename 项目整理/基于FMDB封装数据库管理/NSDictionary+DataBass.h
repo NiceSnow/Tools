@@ -48,7 +48,7 @@ typedef void(^DataBessObjectIvarsOption)(modleAttribute *ivar);
 
 @interface NSDictionary (DataBass)
 /**
- * 实现该方法，则必须实现：yh_replacedKeyFromPropertyName
+ * 实现该方法，则必须实现：DB_ReplacedKeyFromPropertyName
  * 设置主键:能够唯一标示该模型的属性
  *s
  */
