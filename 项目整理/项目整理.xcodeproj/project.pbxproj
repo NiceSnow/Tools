@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D2D3B1E1F13215800FAA041 /* FMDatabase+MyDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2D3B1D1F13215800FAA041 /* FMDatabase+MyDataBase.m */; };
+		2D2D3B361F1326CB00FAA041 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D2D3B201F1326CB00FAA041 /* Info.plist */; };
+		2D2D3B371F1326CB00FAA041 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2D3B231F1326CB00FAA041 /* MJExtensionConst.m */; };
+		2D2D3B381F1326CB00FAA041 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2D3B251F1326CB00FAA041 /* MJFoundation.m */; };
+		2D2D3B391F1326CB00FAA041 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2D3B271F1326CB00FAA041 /* MJProperty.m */; };
+		2D2D3B3A1F1326CB00FAA041 /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2D3B291F1326CB00FAA041 /* MJPropertyKey.m */; };
+		2D2D3B3B1F1326CB00FAA041 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2D3B2B1F1326CB00FAA041 /* MJPropertyType.m */; };
+		2D2D3B3C1F1326CB00FAA041 /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2D3B2D1F1326CB00FAA041 /* NSObject+MJClass.m */; };
+		2D2D3B3D1F1326CB00FAA041 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2D3B2F1F1326CB00FAA041 /* NSObject+MJCoding.m */; };
+		2D2D3B3E1F1326CB00FAA041 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2D3B311F1326CB00FAA041 /* NSObject+MJKeyValue.m */; };
+		2D2D3B3F1F1326CB00FAA041 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2D3B331F1326CB00FAA041 /* NSObject+MJProperty.m */; };
+		2D2D3B401F1326CB00FAA041 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2D3B351F1326CB00FAA041 /* NSString+MJExtension.m */; };
 		2D447B151EFCAF16006BBCEC /* UIButton+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D447B141EFCAF16006BBCEC /* UIButton+extension.m */; };
 		2D447B181EFCAF26006BBCEC /* NSString+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D447B171EFCAF26006BBCEC /* NSString+extension.m */; };
 		2D447B1B1EFCAF33006BBCEC /* UILabel+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D447B1A1EFCAF33006BBCEC /* UILabel+extension.m */; };
@@ -61,6 +73,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D2D3B1C1F13215800FAA041 /* FMDatabase+MyDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FMDatabase+MyDataBase.h"; sourceTree = "<group>"; };
+		2D2D3B1D1F13215800FAA041 /* FMDatabase+MyDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FMDatabase+MyDataBase.m"; sourceTree = "<group>"; };
+		2D2D3B201F1326CB00FAA041 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D2D3B211F1326CB00FAA041 /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		2D2D3B221F1326CB00FAA041 /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		2D2D3B231F1326CB00FAA041 /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		2D2D3B241F1326CB00FAA041 /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		2D2D3B251F1326CB00FAA041 /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		2D2D3B261F1326CB00FAA041 /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		2D2D3B271F1326CB00FAA041 /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		2D2D3B281F1326CB00FAA041 /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
+		2D2D3B291F1326CB00FAA041 /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
+		2D2D3B2A1F1326CB00FAA041 /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
+		2D2D3B2B1F1326CB00FAA041 /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
+		2D2D3B2C1F1326CB00FAA041 /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
+		2D2D3B2D1F1326CB00FAA041 /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
+		2D2D3B2E1F1326CB00FAA041 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		2D2D3B2F1F1326CB00FAA041 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		2D2D3B301F1326CB00FAA041 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		2D2D3B311F1326CB00FAA041 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		2D2D3B321F1326CB00FAA041 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		2D2D3B331F1326CB00FAA041 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		2D2D3B341F1326CB00FAA041 /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		2D2D3B351F1326CB00FAA041 /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
 		2D447B131EFCAF16006BBCEC /* UIButton+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+extension.h"; sourceTree = "<group>"; };
 		2D447B141EFCAF16006BBCEC /* UIButton+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+extension.m"; sourceTree = "<group>"; };
 		2D447B161EFCAF26006BBCEC /* NSString+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+extension.h"; sourceTree = "<group>"; };
@@ -153,6 +189,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D2D3B1F1F1326CB00FAA041 /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				2D2D3B201F1326CB00FAA041 /* Info.plist */,
+				2D2D3B211F1326CB00FAA041 /* MJExtension.h */,
+				2D2D3B221F1326CB00FAA041 /* MJExtensionConst.h */,
+				2D2D3B231F1326CB00FAA041 /* MJExtensionConst.m */,
+				2D2D3B241F1326CB00FAA041 /* MJFoundation.h */,
+				2D2D3B251F1326CB00FAA041 /* MJFoundation.m */,
+				2D2D3B261F1326CB00FAA041 /* MJProperty.h */,
+				2D2D3B271F1326CB00FAA041 /* MJProperty.m */,
+				2D2D3B281F1326CB00FAA041 /* MJPropertyKey.h */,
+				2D2D3B291F1326CB00FAA041 /* MJPropertyKey.m */,
+				2D2D3B2A1F1326CB00FAA041 /* MJPropertyType.h */,
+				2D2D3B2B1F1326CB00FAA041 /* MJPropertyType.m */,
+				2D2D3B2C1F1326CB00FAA041 /* NSObject+MJClass.h */,
+				2D2D3B2D1F1326CB00FAA041 /* NSObject+MJClass.m */,
+				2D2D3B2E1F1326CB00FAA041 /* NSObject+MJCoding.h */,
+				2D2D3B2F1F1326CB00FAA041 /* NSObject+MJCoding.m */,
+				2D2D3B301F1326CB00FAA041 /* NSObject+MJKeyValue.h */,
+				2D2D3B311F1326CB00FAA041 /* NSObject+MJKeyValue.m */,
+				2D2D3B321F1326CB00FAA041 /* NSObject+MJProperty.h */,
+				2D2D3B331F1326CB00FAA041 /* NSObject+MJProperty.m */,
+				2D2D3B341F1326CB00FAA041 /* NSString+MJExtension.h */,
+				2D2D3B351F1326CB00FAA041 /* NSString+MJExtension.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
 		2D447B121EFCAE5C006BBCEC /* 常用类别 */ = {
 			isa = PBXGroup;
 			children = (
@@ -190,9 +255,12 @@
 		2D7545731F0F1BFD00D085A2 /* 基于FMDB封装数据库管理 */ = {
 			isa = PBXGroup;
 			children = (
+				2D2D3B1F1F1326CB00FAA041 /* MJExtension */,
 				2D7545741F0F38E800D085A2 /* fmdb */,
 				2D7545891F0F567500D085A2 /* NSObject+DataBass.h */,
 				2D75458A1F0F567500D085A2 /* NSObject+DataBass.m */,
+				2D2D3B1C1F13215800FAA041 /* FMDatabase+MyDataBase.h */,
+				2D2D3B1D1F13215800FAA041 /* FMDatabase+MyDataBase.m */,
 			);
 			path = "基于FMDB封装数据库管理";
 			sourceTree = "<group>";
@@ -434,6 +502,7 @@
 			files = (
 				2D7545861F0F38E800D085A2 /* Info.plist in Resources */,
 				2D9AF63D1EFBB84700F99F3D /* LaunchScreen.storyboard in Resources */,
+				2D2D3B361F1326CB00FAA041 /* Info.plist in Resources */,
 				2D9AF63A1EFBB84700F99F3D /* Assets.xcassets in Resources */,
 				2D9AF6381EFBB84700F99F3D /* Main.storyboard in Resources */,
 				2DE360A31F034D9200F20BF5 /* private_key.p12 in Resources */,
@@ -469,21 +538,32 @@
 				2D9AF6321EFBB84700F99F3D /* AppDelegate.m in Sources */,
 				2D9AF62F1EFBB84700F99F3D /* main.m in Sources */,
 				2D7545821F0F38E800D085A2 /* FMDatabaseAdditions.m in Sources */,
+				2D2D3B3C1F1326CB00FAA041 /* NSObject+MJClass.m in Sources */,
 				2D447B181EFCAF26006BBCEC /* NSString+extension.m in Sources */,
+				2D2D3B1E1F13215800FAA041 /* FMDatabase+MyDataBase.m in Sources */,
+				2D2D3B401F1326CB00FAA041 /* NSString+MJExtension.m in Sources */,
 				2D9AF6651EFBCA5D00F99F3D /* Tools.m in Sources */,
 				2D447B271EFCAF92006BBCEC /* NSData+extension.m in Sources */,
+				2D2D3B3B1F1326CB00FAA041 /* MJPropertyType.m in Sources */,
 				9291BCAC1F00E16700A495A9 /* DJProgressView.m in Sources */,
 				2D7545841F0F38E800D085A2 /* FMDatabaseQueue.m in Sources */,
+				2D2D3B3A1F1326CB00FAA041 /* MJPropertyKey.m in Sources */,
+				2D2D3B3F1F1326CB00FAA041 /* NSObject+MJProperty.m in Sources */,
 				2D447B2A1EFCAFA1006BBCEC /* NSDate+extension.m in Sources */,
 				2D447B151EFCAF16006BBCEC /* UIButton+extension.m in Sources */,
 				9291BCAD1F00E16700A495A9 /* MZTimerLabel.m in Sources */,
 				2D447B2D1EFCC986006BBCEC /* UIImage+extension.m in Sources */,
+				2D2D3B381F1326CB00FAA041 /* MJFoundation.m in Sources */,
 				2D7545851F0F38E800D085A2 /* FMResultSet.m in Sources */,
 				2D7545831F0F38E800D085A2 /* FMDatabasePool.m in Sources */,
+				2D2D3B371F1326CB00FAA041 /* MJExtensionConst.m in Sources */,
+				2D2D3B3D1F1326CB00FAA041 /* NSObject+MJCoding.m in Sources */,
 				2D447B1E1EFCAF4B006BBCEC /* UIView+extension.m in Sources */,
 				2D447B301EFCE67E006BBCEC /* NSArray+extension.m in Sources */,
 				2D447B1B1EFCAF33006BBCEC /* UILabel+extension.m in Sources */,
 				2D75458B1F0F567500D085A2 /* NSObject+DataBass.m in Sources */,
+				2D2D3B391F1326CB00FAA041 /* MJProperty.m in Sources */,
+				2D2D3B3E1F1326CB00FAA041 /* NSObject+MJKeyValue.m in Sources */,
 				2D7545811F0F38E800D085A2 /* FMDatabase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
