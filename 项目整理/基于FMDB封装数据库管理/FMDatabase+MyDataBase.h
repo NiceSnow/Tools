@@ -43,7 +43,7 @@ typedef void(^DBAllModelsOption)(NSMutableArray *models);
 /** 查询某个模型数据 */
 - (id )DB_ExcuteDataWithTable:(NSString *)table Model:(id )model  PrimaryKey:(NSString *)primaryKey UserInfo:(NSDictionary *)userInfo FuzzyUserInfo:(NSDictionary *)fuzzyUserInfo OtherSQL:(NSDictionary *)otherSQL Option:(DBExcuteOption )option;
 /** 查询某种所有的模型数据 */
-- (void)DB_excuteDatasWithTable:(NSString *)table model:(id )model  primaryKey:(NSString *)primaryKey userInfo:(NSDictionary *)userInfo fuzzyUserInfo:(NSDictionary *)fuzzyUserInfo otherSQL:(NSDictionary *)otherSQL option:(DBAllModelsOption )option;
+- (void)DB_ExcuteDatasWithTable:(NSString *)table Model:(id )model  PrimaryKey:(NSString *)primaryKey UserInfo:(NSDictionary *)userInfo FuzzyUserInfo:(NSDictionary *)fuzzyUserInfo OtherSQL:(NSDictionary *)otherSQL Option:(DBAllModelsOption )option;
 
 /** 查询表数据条数 */
 - (void)numberOfDatasWithTable:(NSString *)table complete:(void(^)(NSInteger count))complete;
