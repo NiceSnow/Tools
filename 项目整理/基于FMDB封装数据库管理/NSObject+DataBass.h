@@ -31,22 +31,22 @@ extern NSString *const DB_PrimaryKey;
 
 typedef enum{
     /** 字符串类型 */
-    DataBessJectIvarTypeObject = 64,
+    DataBaseJectIvarTypeObject = 64,
     /** 浮点型 */
-    DataBessObjectIvarTypeDoubleAndFloat = 100,
+    DataBaseObjectIvarTypeDoubleAndFloat = 100,
     /** 数组 */
-    DataBessObjectIvarTypeArray = 65,
+    DataBaseObjectIvarTypeArray = 65,
     /** 流：data */
-    DataBessObjectIvarTypeData = 66,
+    DataBaseObjectIvarTypeData = 66,
     /** 图片：image */
-    DataBessObjectIvarTypeImage = 67,
+    DataBaseObjectIvarTypeImage = 67,
     /** 其他(在数据库中使用long进行取值) */
-    DataBessObjectIvarTypeOther = -1
-}DataBessObjectIvarType;
+    DataBaseObjectIvarTypeOther = -1
+}DataBaseObjectIvarType;
 
-typedef void(^DataBessObjectIvarsOption)(modleAttribute *ivar);
+typedef void(^DataBaseObjectIvarsOption)(modleAttribute *ivar);
 
-@interface NSDictionary (DataBass)
+@interface NSObject (DataBass)
 /**
  * 实现该方法，则必须实现：DB_ReplacedKeyFromPropertyName
  * 设置主键:能够唯一标示该模型的属性
@@ -101,9 +101,9 @@ typedef void(^DataBessObjectIvarsOption)(modleAttribute *ivar);
 
 
 /** 获取对象的属性名和属性类型 */
-+ (void)DB_ObjectIvar_NameAndIvar_TypeWithOption:(DataBessObjectIvarsOption )option;
++ (void)DB_ObjectIvar_NameAndIvar_TypeWithOption:(DataBaseObjectIvarsOption )option;
 
-+ (void)DB_ReplaceKeyWithIvarModel:(modleAttribute *)model Option:(DataBessObjectIvarsOption )option ;
++ (void)DB_ReplaceKeyWithIvarModel:(modleAttribute *)model Option:(DataBaseObjectIvarsOption )option ;
 
 /** 不保存到数据库的属性集合 */
 + (NSArray *)DB_PropertyDonotSave;

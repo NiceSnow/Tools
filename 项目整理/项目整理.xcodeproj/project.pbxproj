@@ -25,7 +25,7 @@
 		2D7545851F0F38E800D085A2 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D75457F1F0F38E800D085A2 /* FMResultSet.m */; };
 		2D7545861F0F38E800D085A2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D7545801F0F38E800D085A2 /* Info.plist */; };
 		2D7545881F0F39A200D085A2 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D7545871F0F39A200D085A2 /* libsqlite3.0.tbd */; };
-		2D75458B1F0F567500D085A2 /* NSDictionary+DataBass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D75458A1F0F567500D085A2 /* NSDictionary+DataBass.m */; };
+		2D75458B1F0F567500D085A2 /* NSObject+DataBass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D75458A1F0F567500D085A2 /* NSObject+DataBass.m */; };
 		2D9AF62F1EFBB84700F99F3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9AF62E1EFBB84700F99F3D /* main.m */; };
 		2D9AF6321EFBB84700F99F3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9AF6311EFBB84700F99F3D /* AppDelegate.m */; };
 		2D9AF6351EFBB84700F99F3D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9AF6341EFBB84700F99F3D /* ViewController.m */; };
@@ -94,8 +94,8 @@
 		2D75457F1F0F38E800D085A2 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
 		2D7545801F0F38E800D085A2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D7545871F0F39A200D085A2 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
-		2D7545891F0F567500D085A2 /* NSDictionary+DataBass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+DataBass.h"; sourceTree = "<group>"; };
-		2D75458A1F0F567500D085A2 /* NSDictionary+DataBass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+DataBass.m"; sourceTree = "<group>"; };
+		2D7545891F0F567500D085A2 /* NSObject+DataBass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DataBass.h"; sourceTree = "<group>"; };
+		2D75458A1F0F567500D085A2 /* NSObject+DataBass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DataBass.m"; sourceTree = "<group>"; };
 		2D9AF62A1EFBB84700F99F3D /* 项目整理.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "项目整理.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D9AF62E1EFBB84700F99F3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2D9AF6301EFBB84700F99F3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -191,8 +191,8 @@
 			isa = PBXGroup;
 			children = (
 				2D7545741F0F38E800D085A2 /* fmdb */,
-				2D7545891F0F567500D085A2 /* NSDictionary+DataBass.h */,
-				2D75458A1F0F567500D085A2 /* NSDictionary+DataBass.m */,
+				2D7545891F0F567500D085A2 /* NSObject+DataBass.h */,
+				2D75458A1F0F567500D085A2 /* NSObject+DataBass.m */,
 			);
 			path = "基于FMDB封装数据库管理";
 			sourceTree = "<group>";
@@ -483,7 +483,7 @@
 				2D447B1E1EFCAF4B006BBCEC /* UIView+extension.m in Sources */,
 				2D447B301EFCE67E006BBCEC /* NSArray+extension.m in Sources */,
 				2D447B1B1EFCAF33006BBCEC /* UILabel+extension.m in Sources */,
-				2D75458B1F0F567500D085A2 /* NSDictionary+DataBass.m in Sources */,
+				2D75458B1F0F567500D085A2 /* NSObject+DataBass.m in Sources */,
 				2D7545811F0F38E800D085A2 /* FMDatabase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

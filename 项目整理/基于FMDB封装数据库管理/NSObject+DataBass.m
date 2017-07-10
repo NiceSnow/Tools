@@ -6,14 +6,14 @@
 //  Copyright © 2017年 shengtian. All rights reserved.
 //
 
-#import "NSDictionary+DataBass.h"
+#import "NSObject+DataBass.h"
 #import <objc/runtime.h>
 
 @implementation modleAttribute
 
 @end
 
-@implementation NSDictionary (DataBass)
+@implementation NSObject (DataBass)
 
 NSString *const DB_AppendingID = @"_id";
 
