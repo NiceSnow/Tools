@@ -14,7 +14,13 @@
 #import "MacroDefinition.h"
 #import "NSDictionary+extension.h"
 #import "Tools.h"
-@interface ViewController ()
+#import "SqliteManager.h"
+#import "TestData.h"
+@interface ViewController (){
+    NSString *_uid;//用户ID;
+    int _dynTag;//动态标签类型
+}
+@property (nonatomic,strong) NSMutableArray *maDynList;
 
 @end
 
@@ -22,7 +28,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.maDynList = [[TestData generateDynData] mutableCopy];
+    _uid = @"10001";
+    _dynTag = 1;
     UIButton* btn = [[UIButton alloc]initWithFrame:CGRectMake(100, 100, 200, 80)];
     [btn addTarget:self action:@selector(presses) forControlEvents:UIControlEventTouchUpInside];
     btn.backgroundColor = [UIColor redColor];
@@ -76,6 +84,17 @@
     NSLog(@"加密前:%@", originalString);
     NSLog(@"加密后:%@", encryptStr);
     NSLog(@"解密后:%@", [Tools decryptString:encryptStr privateKeyWithContentsOfFile:private_key_path password:@"Mdd123123"]);
+    
+    
+    [[SqliteManager sharedInstance] updateDynWithTag:_dynTag userID:_uid dynList:self.maDynList complete:^(BOOL success, id obj) {
+        if (success) {
+            NSLog(@"更新动态列表成功");
+//            [self _showResultWithTitle:@"更新动态列表" obj:@"更新动态列表成功"];
+        }else{
+            NSLog(@"更新动态列表失败");
+//            [self _showResultWithTitle:@"更新动态列表" obj:@"更新动态列表失败"];
+        }
+    }];
     
     // Do any additional setup after loading the view, typically from a nib.
 }

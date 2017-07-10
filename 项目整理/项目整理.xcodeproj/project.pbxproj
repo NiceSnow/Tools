@@ -19,6 +19,14 @@
 		2D2D3B3E1F1326CB00FAA041 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2D3B311F1326CB00FAA041 /* NSObject+MJKeyValue.m */; };
 		2D2D3B3F1F1326CB00FAA041 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2D3B331F1326CB00FAA041 /* NSObject+MJProperty.m */; };
 		2D2D3B401F1326CB00FAA041 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2D3B351F1326CB00FAA041 /* NSString+MJExtension.m */; };
+		2D2D3B511F135A8E00FAA041 /* YHCommentData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2D3B441F135A8E00FAA041 /* YHCommentData.m */; };
+		2D2D3B521F135A8E00FAA041 /* YHEducationExperienceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2D3B461F135A8E00FAA041 /* YHEducationExperienceModel.m */; };
+		2D2D3B531F135A8E00FAA041 /* YHUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2D3B481F135A8E00FAA041 /* YHUserInfo.m */; };
+		2D2D3B541F135A8E00FAA041 /* YHUserSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2D3B4A1F135A8E00FAA041 /* YHUserSetting.m */; };
+		2D2D3B551F135A8E00FAA041 /* YHWorkExperienceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2D3B4C1F135A8E00FAA041 /* YHWorkExperienceModel.m */; };
+		2D2D3B561F135A8E00FAA041 /* YHWorkGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2D3B4E1F135A8E00FAA041 /* YHWorkGroup.m */; };
+		2D2D3B571F135A8E00FAA041 /* TestData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2D3B501F135A8E00FAA041 /* TestData.m */; };
+		2D2D3B5A1F135EDE00FAA041 /* SqliteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2D3B591F135EDE00FAA041 /* SqliteManager.m */; };
 		2D447B151EFCAF16006BBCEC /* UIButton+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D447B141EFCAF16006BBCEC /* UIButton+extension.m */; };
 		2D447B181EFCAF26006BBCEC /* NSString+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D447B171EFCAF26006BBCEC /* NSString+extension.m */; };
 		2D447B1B1EFCAF33006BBCEC /* UILabel+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D447B1A1EFCAF33006BBCEC /* UILabel+extension.m */; };
@@ -97,6 +105,24 @@
 		2D2D3B331F1326CB00FAA041 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
 		2D2D3B341F1326CB00FAA041 /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
 		2D2D3B351F1326CB00FAA041 /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		2D2D3B431F135A8E00FAA041 /* YHCommentData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHCommentData.h; sourceTree = "<group>"; };
+		2D2D3B441F135A8E00FAA041 /* YHCommentData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHCommentData.m; sourceTree = "<group>"; };
+		2D2D3B451F135A8E00FAA041 /* YHEducationExperienceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHEducationExperienceModel.h; sourceTree = "<group>"; };
+		2D2D3B461F135A8E00FAA041 /* YHEducationExperienceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHEducationExperienceModel.m; sourceTree = "<group>"; };
+		2D2D3B471F135A8E00FAA041 /* YHUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHUserInfo.h; sourceTree = "<group>"; };
+		2D2D3B481F135A8E00FAA041 /* YHUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHUserInfo.m; sourceTree = "<group>"; };
+		2D2D3B491F135A8E00FAA041 /* YHUserSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHUserSetting.h; sourceTree = "<group>"; };
+		2D2D3B4A1F135A8E00FAA041 /* YHUserSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHUserSetting.m; sourceTree = "<group>"; };
+		2D2D3B4B1F135A8E00FAA041 /* YHWorkExperienceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHWorkExperienceModel.h; sourceTree = "<group>"; };
+		2D2D3B4C1F135A8E00FAA041 /* YHWorkExperienceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHWorkExperienceModel.m; sourceTree = "<group>"; };
+		2D2D3B4D1F135A8E00FAA041 /* YHWorkGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHWorkGroup.h; sourceTree = "<group>"; };
+		2D2D3B4E1F135A8E00FAA041 /* YHWorkGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHWorkGroup.m; sourceTree = "<group>"; };
+		2D2D3B4F1F135A8E00FAA041 /* TestData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestData.h; sourceTree = "<group>"; };
+		2D2D3B501F135A8E00FAA041 /* TestData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestData.m; sourceTree = "<group>"; };
+		2D2D3B581F135EDE00FAA041 /* SqliteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqliteManager.h; sourceTree = "<group>"; };
+		2D2D3B591F135EDE00FAA041 /* SqliteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqliteManager.m; sourceTree = "<group>"; };
+		2D2D3B5B1F135F5F00FAA041 /* YHSqilteConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHSqilteConfig.h; sourceTree = "<group>"; };
+		2D2D3B5E1F1361B500FAA041 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		2D447B131EFCAF16006BBCEC /* UIButton+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+extension.h"; sourceTree = "<group>"; };
 		2D447B141EFCAF16006BBCEC /* UIButton+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+extension.m"; sourceTree = "<group>"; };
 		2D447B161EFCAF26006BBCEC /* NSString+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+extension.h"; sourceTree = "<group>"; };
@@ -218,6 +244,35 @@
 			path = MJExtension;
 			sourceTree = "<group>";
 		};
+		2D2D3B411F135A4500FAA041 /* 数据库提供数据 */ = {
+			isa = PBXGroup;
+			children = (
+				2D2D3B421F135A8E00FAA041 /* Model */,
+				2D2D3B4F1F135A8E00FAA041 /* TestData.h */,
+				2D2D3B501F135A8E00FAA041 /* TestData.m */,
+			);
+			path = "数据库提供数据";
+			sourceTree = "<group>";
+		};
+		2D2D3B421F135A8E00FAA041 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2D2D3B431F135A8E00FAA041 /* YHCommentData.h */,
+				2D2D3B441F135A8E00FAA041 /* YHCommentData.m */,
+				2D2D3B451F135A8E00FAA041 /* YHEducationExperienceModel.h */,
+				2D2D3B461F135A8E00FAA041 /* YHEducationExperienceModel.m */,
+				2D2D3B471F135A8E00FAA041 /* YHUserInfo.h */,
+				2D2D3B481F135A8E00FAA041 /* YHUserInfo.m */,
+				2D2D3B491F135A8E00FAA041 /* YHUserSetting.h */,
+				2D2D3B4A1F135A8E00FAA041 /* YHUserSetting.m */,
+				2D2D3B4B1F135A8E00FAA041 /* YHWorkExperienceModel.h */,
+				2D2D3B4C1F135A8E00FAA041 /* YHWorkExperienceModel.m */,
+				2D2D3B4D1F135A8E00FAA041 /* YHWorkGroup.h */,
+				2D2D3B4E1F135A8E00FAA041 /* YHWorkGroup.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		2D447B121EFCAE5C006BBCEC /* 常用类别 */ = {
 			isa = PBXGroup;
 			children = (
@@ -261,6 +316,9 @@
 				2D75458A1F0F567500D085A2 /* NSObject+DataBass.m */,
 				2D2D3B1C1F13215800FAA041 /* FMDatabase+MyDataBase.h */,
 				2D2D3B1D1F13215800FAA041 /* FMDatabase+MyDataBase.m */,
+				2D2D3B581F135EDE00FAA041 /* SqliteManager.h */,
+				2D2D3B591F135EDE00FAA041 /* SqliteManager.m */,
+				2D2D3B5B1F135F5F00FAA041 /* YHSqilteConfig.h */,
 			);
 			path = "基于FMDB封装数据库管理";
 			sourceTree = "<group>";
@@ -313,6 +371,7 @@
 		2D9AF62C1EFBB84700F99F3D /* 项目整理 */ = {
 			isa = PBXGroup;
 			children = (
+				2D2D3B411F135A4500FAA041 /* 数据库提供数据 */,
 				2D7238811F03588800D35657 /* java_pem */,
 				2DE360A11F034D9200F20BF5 /* private_key.p12 */,
 				2DE360A21F034D9200F20BF5 /* public_key.der */,
@@ -333,6 +392,7 @@
 			isa = PBXGroup;
 			children = (
 				2D9AF62E1EFBB84700F99F3D /* main.m */,
+				2D2D3B5E1F1361B500FAA041 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -534,23 +594,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D447B331EFCE68F006BBCEC /* NSDictionary+extension.m in Sources */,
+				2D2D3B571F135A8E00FAA041 /* TestData.m in Sources */,
+				2D2D3B531F135A8E00FAA041 /* YHUserInfo.m in Sources */,
 				2D9AF6351EFBB84700F99F3D /* ViewController.m in Sources */,
 				2D9AF6321EFBB84700F99F3D /* AppDelegate.m in Sources */,
 				2D9AF62F1EFBB84700F99F3D /* main.m in Sources */,
 				2D7545821F0F38E800D085A2 /* FMDatabaseAdditions.m in Sources */,
+				2D2D3B5A1F135EDE00FAA041 /* SqliteManager.m in Sources */,
 				2D2D3B3C1F1326CB00FAA041 /* NSObject+MJClass.m in Sources */,
 				2D447B181EFCAF26006BBCEC /* NSString+extension.m in Sources */,
 				2D2D3B1E1F13215800FAA041 /* FMDatabase+MyDataBase.m in Sources */,
 				2D2D3B401F1326CB00FAA041 /* NSString+MJExtension.m in Sources */,
 				2D9AF6651EFBCA5D00F99F3D /* Tools.m in Sources */,
 				2D447B271EFCAF92006BBCEC /* NSData+extension.m in Sources */,
+				2D2D3B521F135A8E00FAA041 /* YHEducationExperienceModel.m in Sources */,
 				2D2D3B3B1F1326CB00FAA041 /* MJPropertyType.m in Sources */,
 				9291BCAC1F00E16700A495A9 /* DJProgressView.m in Sources */,
+				2D2D3B561F135A8E00FAA041 /* YHWorkGroup.m in Sources */,
 				2D7545841F0F38E800D085A2 /* FMDatabaseQueue.m in Sources */,
+				2D2D3B541F135A8E00FAA041 /* YHUserSetting.m in Sources */,
 				2D2D3B3A1F1326CB00FAA041 /* MJPropertyKey.m in Sources */,
 				2D2D3B3F1F1326CB00FAA041 /* NSObject+MJProperty.m in Sources */,
 				2D447B2A1EFCAFA1006BBCEC /* NSDate+extension.m in Sources */,
 				2D447B151EFCAF16006BBCEC /* UIButton+extension.m in Sources */,
+				2D2D3B551F135A8E00FAA041 /* YHWorkExperienceModel.m in Sources */,
 				9291BCAD1F00E16700A495A9 /* MZTimerLabel.m in Sources */,
 				2D447B2D1EFCC986006BBCEC /* UIImage+extension.m in Sources */,
 				2D2D3B381F1326CB00FAA041 /* MJFoundation.m in Sources */,
@@ -565,6 +632,7 @@
 				2D2D3B391F1326CB00FAA041 /* MJProperty.m in Sources */,
 				2D2D3B3E1F1326CB00FAA041 /* NSObject+MJKeyValue.m in Sources */,
 				2D7545811F0F38E800D085A2 /* FMDatabase.m in Sources */,
+				2D2D3B511F135A8E00FAA041 /* YHCommentData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -714,6 +782,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 723W44X739;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/项目整理/PrefixHeader.pch";
 				INFOPLIST_FILE = "项目整理/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "HMR.----";
@@ -726,6 +795,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 723W44X739;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/项目整理/PrefixHeader.pch";
 				INFOPLIST_FILE = "项目整理/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "HMR.----";
