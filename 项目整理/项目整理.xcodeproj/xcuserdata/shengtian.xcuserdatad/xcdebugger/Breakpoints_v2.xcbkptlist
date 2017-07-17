@@ -19,5 +19,143 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x57fa;&#x4e8e;FMDB&#x5c01;&#x88c5;&#x6570;&#x636e;&#x5e93;&#x7ba1;&#x7406;/SqliteManager.m"
+            timestampString = "521450848.832609"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "488"
+            endingLineNumber = "488"
+            landmarkName = "-_setupDynDBqueueWithTag:userID:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x57fa;&#x4e8e;FMDB&#x5c01;&#x88c5;&#x6570;&#x636e;&#x5e93;&#x7ba1;&#x7406;/SqliteManager.m"
+            timestampString = "521451180.123573"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "487"
+            endingLineNumber = "487"
+            landmarkName = "-_setupDynDBqueueWithTag:userID:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SqliteManager _setupDynDBqueueWithTag:userID:]"
+                  moduleName = "&#x9879;&#x76ee;&#x6574;&#x7406;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guojinghan/Documents/Tools/%E9%A1%B9%E7%9B%AE%E6%95%B4%E7%90%86/%E5%9F%BA%E4%BA%8EFMDB%E5%B0%81%E8%A3%85%E6%95%B0%E6%8D%AE%E5%BA%93%E7%AE%A1%E7%90%86/SqliteManager.m"
+                  timestampString = "521956829.107507"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "487"
+                  endingLineNumber = "487"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SqliteManager _setupDynDBqueueWithTag:userID:]"
+                  moduleName = "&#x9879;&#x76ee;&#x6574;&#x7406;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guojinghan/Documents/Tools/%E9%A1%B9%E7%9B%AE%E6%95%B4%E7%90%86/%E5%9F%BA%E4%BA%8EFMDB%E5%B0%81%E8%A3%85%E6%95%B0%E6%8D%AE%E5%BA%93%E7%AE%A1%E7%90%86/SqliteManager.m"
+                  timestampString = "521956829.10877"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "487"
+                  endingLineNumber = "487"
+                  offsetFromSymbolStart = "96">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x57fa;&#x4e8e;FMDB&#x5c01;&#x88c5;&#x6570;&#x636e;&#x5e93;&#x7ba1;&#x7406;/SqliteManager.m"
+            timestampString = "521451591.908004"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "-creatDynTableWithTag:userID:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x57fa;&#x4e8e;FMDB&#x5c01;&#x88c5;&#x6570;&#x636e;&#x5e93;&#x7ba1;&#x7406;/SqliteManager.m"
+            timestampString = "521451599.884537"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "426"
+            endingLineNumber = "426"
+            landmarkName = "-_firstCreatDynQueueWithTag:userID:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x57fa;&#x4e8e;FMDB&#x5c01;&#x88c5;&#x6570;&#x636e;&#x5e93;&#x7ba1;&#x7406;/SqliteManager.m"
+            timestampString = "521456791.137296"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "440"
+            endingLineNumber = "440"
+            landmarkName = "-_firstCreatDynQueueWithTag:userID:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "0"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x57fa;&#x4e8e;FMDB&#x5c01;&#x88c5;&#x6570;&#x636e;&#x5e93;&#x7ba1;&#x7406;/SqliteManager.m"
+            timestampString = "521956337.345376"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "-updateDynWithTag:userID:dynList:complete:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

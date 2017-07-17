@@ -16,6 +16,7 @@
 #import "Tools.h"
 #import "SqliteManager.h"
 #import "TestData.h"
+#import "LucencyViewController.h"
 @interface ViewController (){
     NSString *_uid;//用户ID;
     int _dynTag;//动态标签类型
@@ -28,6 +29,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = @"首页";
     self.maDynList = [[TestData generateDynData] mutableCopy];
     _uid = @"10001";
     _dynTag = 1;
@@ -97,6 +99,10 @@
     }];
     
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+-(void)presses{
+    [self.navigationController pushViewController:[[LucencyViewController alloc]init] animated:YES];
 }
 
 
