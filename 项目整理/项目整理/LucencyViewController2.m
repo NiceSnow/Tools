@@ -238,7 +238,8 @@
     pie.showDescripotion = NO;
     //    pie.colorArr = @[[UIColor redColor],[UIColor redColor],[UIColor redColor],[UIColor redColor],[UIColor redColor],[UIColor redColor],[UIColor redColor],[UIColor yellowColor]];
     /*        Start animation         */
-    [pie showAnimation];
+    [pie showPieOnly];
+//    [pie showPieAndMessage];
     
 }
 

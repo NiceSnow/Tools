@@ -1,4 +1,4 @@
-//
+                                                     //
 //  JHPieChart.m
 //  JHCALayer
 //
@@ -145,10 +145,76 @@
     
 }
 
--(void)showAnimation{
+-(void)showPieOnly{
+    _showDescripotion = NO;
+    if (_valueArr.count>0) {
+        
+        [self countAllValue];
+        
+        [self countAllAngleDataArr];
+        
+        _layersArr = [NSMutableArray array];
+        
+        CGFloat wid = self.frame.size.width-20;
+        self.chartOrigin = P_M(10 + wid / 2, 10 + wid / 2);
+        
+        _chartArcLength = wid/2;
+        
+        NSArray *colors = nil;
+        
+        if (_colorArr.count == _valueArr.count) {
+            
+            colors = _colorArr;
+            
+        }else{
+            
+            colors = k_COLOR_STOCK;
+            
+        }
+        
+        
+        for (NSInteger i = 0; i<_countPreAngeleArr.count-1; i++) {
+            
+            JHPieItemsView *itemsView = [[JHPieItemsView alloc] initWithFrame:CGRectMake(10, 10, wid/2, wid/2) andBeginAngle:[_countPreAngeleArr[i] floatValue] andEndAngle:[_countPreAngeleArr[i+1] floatValue] andFillColor:colors[i%colors.count]];
+            
+            itemsView.center = CGPointMake(self.frame.size.width/2, self.frame.size.height/2);
+            
+            itemsView.tag = i;
+            
+            [_layersArr addObject:itemsView];
+            
+            [self addSubview:itemsView];
+            
+        }
+        
+        _pieForeView = [[JHPieForeBGView alloc] initWithFrame:CGRectMake(10, 10, wid,  wid)];
+        
+        _pieForeView.center = CGPointMake(self.frame.size.width/2, self.frame.size.height/2);
+        
+        _pieForeView.backgroundColor = [UIColor clearColor];
+        if (_showInfoView==nil) {
+            _showInfoView = [[JHShowInfoView alloc] init];
+            _showInfoView.hidden = YES;
+            [_pieForeView addSubview:_showInfoView];
+        }
+        __weak typeof(self) weakSelf = self;
+        _pieForeView.select = ^(CGFloat angle,CGPoint p){
+            
+            [weakSelf judgeWhitchOneIsNowAngle:angle andShowPoint:p];
+            
+        };
+        
+        [self addSubview:_pieForeView];
+        
+    }
+    
+    [self setNeedsDisplay];
+}
+
+-(void)showPieAndMessage{
     
  
-    
+    _showDescripotion = YES;
     if (_valueArr.count>0) {
         
         [self countAllValue];
@@ -222,6 +288,7 @@
 }
 
 
+
 - (void)judgeWhitchOneIsNowAngle:(CGFloat )angel andShowPoint:(CGPoint)p{
     weakSelf(weakSelf)
     for (NSInteger i = 0; i<_countPreAngeleArr.count-1; i++) {
@@ -258,13 +325,16 @@
             
             CGFloat wid = self.frame.size.width-20;
             
-            if (_descArr.count>0) {
-                
-                NSInteger i = _descArr.count/2 + _descArr.count%2;
-                
-                wid = self.frame.size.height - 10 - i*25;
-                
+            if (_showDescripotion) {
+                if (_descArr.count>0) {
+                    
+                    NSInteger i = _descArr.count/2 + _descArr.count%2;
+                    
+                    wid = self.frame.size.height - 10 - i*25;
+                    
+                }
             }
+            
             NSArray *colors = nil;
             
             if (_colorArr.count == _valueArr.count) {

@@ -40,4 +40,14 @@
 @property (nonatomic,assign) BOOL showDescripotion;
 
 
+/**
+ 只显示圆
+ */
+-(void)showPieOnly;
+
+/**
+ 显示数据和圆
+ */
+-(void)showPieAndMessage;
+
 @end
